@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B058DE9B2C335193006687CA /* exercises.json in Resources */ = {isa = PBXBuildFile; fileRef = B058DE9A2C335193006687CA /* exercises.json */; };
+		B05B644A2BF253360046641A /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B64492BF253360046641A /* ProfileScreen.swift */; };
+		B05B644C2BF271890046641A /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B644B2BF271890046641A /* MainScreen.swift */; };
+		B07F73B92C1AE625006131F5 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07F73B82C1AE625006131F5 /* Exercise.swift */; };
+		B07F73BB2C1AE85E006131F5 /* WorkoutForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07F73BA2C1AE85E006131F5 /* WorkoutForm.swift */; };
+		B081FF1C2BEDD94F005904D8 /* AthletesDiaryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B081FF1B2BEDD94F005904D8 /* AthletesDiaryAppApp.swift */; };
+		B081FF1E2BEDD94F005904D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B081FF1D2BEDD94F005904D8 /* ContentView.swift */; };
+		B081FF202BEDD951005904D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B081FF1F2BEDD951005904D8 /* Assets.xcassets */; };
+		B081FF232BEDD951005904D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B081FF222BEDD951005904D8 /* Preview Assets.xcassets */; };
+		B081FF2A2BEDECD8005904D8 /* DietScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B081FF292BEDECD7005904D8 /* DietScreen.swift */; };
+		B081FF2C2BEE885A005904D8 /* DietForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B081FF2B2BEE885A005904D8 /* DietForm.swift */; };
+		B081FF2E2BEECFFE005904D8 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B081FF2D2BEECFFE005904D8 /* Meal.swift */; };
+		B081FF342BEED473005904D8 /* meals.json in Resources */ = {isa = PBXBuildFile; fileRef = B081FF332BEED473005904D8 /* meals.json */; };
+		B0A61A9A2BF54B4B00A13F60 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A61A992BF54B4B00A13F60 /* People.swift */; };
+		B0A61A9C2BF54B7600A13F60 /* people.json in Resources */ = {isa = PBXBuildFile; fileRef = B0A61A9B2BF54B7600A13F60 /* people.json */; };
+		B0C2BEA52C1B6EA5001E86F1 /* MealCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C2BEA42C1B6EA5001E86F1 /* MealCSV.swift */; };
+		B0C2BEAD2C1B97E0001E86F1 /* mealsDatabase.json in Resources */ = {isa = PBXBuildFile; fileRef = B0C2BEAC2C1B97E0001E86F1 /* mealsDatabase.json */; };
+		B0EEB0972BF1609B004BF931 /* WorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EEB0962BF1609B004BF931 /* WorkoutScreen.swift */; };
+		B0EEB0992BF20427004BF931 /* MacrosChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EEB0982BF20427004BF931 /* MacrosChart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B01DFC102BF52513002B758F /* AthletesDiaryApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AthletesDiaryApp.entitlements; sourceTree = "<group>"; };
+		B058DE9A2C335193006687CA /* exercises.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercises.json; sourceTree = "<group>"; };
+		B05B64492BF253360046641A /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		B05B644B2BF271890046641A /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		B07F73B82C1AE625006131F5 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		B07F73BA2C1AE85E006131F5 /* WorkoutForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutForm.swift; sourceTree = "<group>"; };
+		B081FF182BEDD94F005904D8 /* AthletesDiaryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AthletesDiaryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B081FF1B2BEDD94F005904D8 /* AthletesDiaryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthletesDiaryAppApp.swift; sourceTree = "<group>"; };
+		B081FF1D2BEDD94F005904D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B081FF1F2BEDD951005904D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B081FF222BEDD951005904D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B081FF292BEDECD7005904D8 /* DietScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietScreen.swift; sourceTree = "<group>"; };
+		B081FF2B2BEE885A005904D8 /* DietForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietForm.swift; sourceTree = "<group>"; };
+		B081FF2D2BEECFFE005904D8 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		B081FF332BEED473005904D8 /* meals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = meals.json; path = AthletesDiaryApp/meals.json; sourceTree = SOURCE_ROOT; };
+		B0A61A992BF54B4B00A13F60 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		B0A61A9B2BF54B7600A13F60 /* people.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = people.json; sourceTree = "<group>"; };
+		B0C2BEA42C1B6EA5001E86F1 /* MealCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCSV.swift; sourceTree = "<group>"; };
+		B0C2BEAC2C1B97E0001E86F1 /* mealsDatabase.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mealsDatabase.json; sourceTree = "<group>"; };
+		B0EEB0962BF1609B004BF931 /* WorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreen.swift; sourceTree = "<group>"; };
+		B0EEB0982BF20427004BF931 /* MacrosChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacrosChart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B081FF152BEDD94F005904D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B081FF0F2BEDD94F005904D8 = {
+			isa = PBXGroup;
+			children = (
+				B081FF1A2BEDD94F005904D8 /* AthletesDiaryApp */,
+				B081FF192BEDD94F005904D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B081FF192BEDD94F005904D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B081FF182BEDD94F005904D8 /* AthletesDiaryApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B081FF1A2BEDD94F005904D8 /* AthletesDiaryApp */ = {
+			isa = PBXGroup;
+			children = (
+				B01DFC102BF52513002B758F /* AthletesDiaryApp.entitlements */,
+				B081FF312BEED3FC005904D8 /* Resources */,
+				B081FF1B2BEDD94F005904D8 /* AthletesDiaryAppApp.swift */,
+				B081FF1D2BEDD94F005904D8 /* ContentView.swift */,
+				B0B217192C18AB64007DC894 /* Forms */,
+				B0B217182C18AB51007DC894 /* Screens */,
+				B0B217172C18AB35007DC894 /* Charts */,
+				B0B217162C18AADF007DC894 /* Model */,
+				B081FF1F2BEDD951005904D8 /* Assets.xcassets */,
+				B081FF212BEDD951005904D8 /* Preview Content */,
+			);
+			path = AthletesDiaryApp;
+			sourceTree = "<group>";
+		};
+		B081FF212BEDD951005904D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B081FF222BEDD951005904D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B081FF312BEED3FC005904D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B058DE9A2C335193006687CA /* exercises.json */,
+				B0C2BEAC2C1B97E0001E86F1 /* mealsDatabase.json */,
+				B081FF332BEED473005904D8 /* meals.json */,
+				B0A61A9B2BF54B7600A13F60 /* people.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B0B217162C18AADF007DC894 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B081FF2D2BEECFFE005904D8 /* Meal.swift */,
+				B0A61A992BF54B4B00A13F60 /* People.swift */,
+				B07F73B82C1AE625006131F5 /* Exercise.swift */,
+				B0C2BEA42C1B6EA5001E86F1 /* MealCSV.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0B217172C18AB35007DC894 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				B0EEB0982BF20427004BF931 /* MacrosChart.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		B0B217182C18AB51007DC894 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B05B644B2BF271890046641A /* MainScreen.swift */,
+				B05B64492BF253360046641A /* ProfileScreen.swift */,
+				B0EEB0962BF1609B004BF931 /* WorkoutScreen.swift */,
+				B081FF292BEDECD7005904D8 /* DietScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B0B217192C18AB64007DC894 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				B081FF2B2BEE885A005904D8 /* DietForm.swift */,
+				B07F73BA2C1AE85E006131F5 /* WorkoutForm.swift */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B081FF172BEDD94F005904D8 /* AthletesDiaryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B081FF262BEDD951005904D8 /* Build configuration list for PBXNativeTarget "AthletesDiaryApp" */;
+			buildPhases = (
+				B081FF142BEDD94F005904D8 /* Sources */,
+				B081FF152BEDD94F005904D8 /* Frameworks */,
+				B081FF162BEDD94F005904D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AthletesDiaryApp;
+			packageProductDependencies = (
+			);
+			productName = AthletesDiaryApp;
+			productReference = B081FF182BEDD94F005904D8 /* AthletesDiaryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B081FF102BEDD94F005904D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B081FF172BEDD94F005904D8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = B081FF132BEDD94F005904D8 /* Build configuration list for PBXProject "AthletesDiaryApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B081FF0F2BEDD94F005904D8;
+			packageReferences = (
+			);
+			productRefGroup = B081FF192BEDD94F005904D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B081FF172BEDD94F005904D8 /* AthletesDiaryApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B081FF162BEDD94F005904D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A61A9C2BF54B7600A13F60 /* people.json in Resources */,
+				B081FF232BEDD951005904D8 /* Preview Assets.xcassets in Resources */,
+				B081FF342BEED473005904D8 /* meals.json in Resources */,
+				B081FF202BEDD951005904D8 /* Assets.xcassets in Resources */,
+				B0C2BEAD2C1B97E0001E86F1 /* mealsDatabase.json in Resources */,
+				B058DE9B2C335193006687CA /* exercises.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B081FF142BEDD94F005904D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B081FF2E2BEECFFE005904D8 /* Meal.swift in Sources */,
+				B081FF1E2BEDD94F005904D8 /* ContentView.swift in Sources */,
+				B081FF2A2BEDECD8005904D8 /* DietScreen.swift in Sources */,
+				B07F73BB2C1AE85E006131F5 /* WorkoutForm.swift in Sources */,
+				B081FF1C2BEDD94F005904D8 /* AthletesDiaryAppApp.swift in Sources */,
+				B0A61A9A2BF54B4B00A13F60 /* People.swift in Sources */,
+				B0EEB0992BF20427004BF931 /* MacrosChart.swift in Sources */,
+				B07F73B92C1AE625006131F5 /* Exercise.swift in Sources */,
+				B081FF2C2BEE885A005904D8 /* DietForm.swift in Sources */,
+				B05B644C2BF271890046641A /* MainScreen.swift in Sources */,
+				B0C2BEA52C1B6EA5001E86F1 /* MealCSV.swift in Sources */,
+				B0EEB0972BF1609B004BF931 /* WorkoutScreen.swift in Sources */,
+				B05B644A2BF253360046641A /* ProfileScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B081FF242BEDD951005904D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B081FF252BEDD951005904D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B081FF272BEDD951005904D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AthletesDiaryApp/AthletesDiaryApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AthletesDiaryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M8JN6D675;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leofillium.AthletesDiaryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B081FF282BEDD951005904D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AthletesDiaryApp/AthletesDiaryApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AthletesDiaryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M8JN6D675;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leofillium.AthletesDiaryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B081FF132BEDD94F005904D8 /* Build configuration list for PBXProject "AthletesDiaryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B081FF242BEDD951005904D8 /* Debug */,
+				B081FF252BEDD951005904D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B081FF262BEDD951005904D8 /* Build configuration list for PBXNativeTarget "AthletesDiaryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B081FF272BEDD951005904D8 /* Debug */,
+				B081FF282BEDD951005904D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B081FF102BEDD94F005904D8 /* Project object */;
+}

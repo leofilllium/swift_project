@@ -1,0 +1,18 @@
+[
+    {
+        "id": 0,
+        "username": "leofillium",
+        "profileImage": "https://i.pinimg.com/736x/36/f3/ec/36f3ec3f23b302d6dffae764d7d5d324.jpg",
+        "mainImage": "https://i.pinimg.com/564x/a7/4a/36/a74a369ac1c59790dce43a3fab22882d.jpg",
+        "isLiked": false
+    },
+    {
+        "id": 1,
+        "username": "sherzod",
+        "profileImage": "https://media.istockphoto.com/id/1218868134/vector/young-male-character-portrait-3-4-front-view-millennial-lifestyle-flat-vector-graphics.jpg?s=612x612&w=0&k=20&c=Ro6SrLOuSZtiiRxT-BiGzPUB9nkiPVt_kGys-uKIWII=",
+        "mainImage": "https://media.istockphoto.com/id/176799603/photo/3-4-profile-portrait.jpg?s=612x612&w=0&k=20&c=ArfYQTh-m4PGKwNyWypZWl6Q918m71g6aj5y8s4k1bA=",
+        "isLiked": true
+    }
+]
+
+ 
